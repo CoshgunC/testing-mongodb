@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+  .input {
+    @apply placeholder:text-gray-600 placeholder:text-2xl rounded-xl p-4 text-lg bg-transparent shadow-sm shadow-gray-600;
+  }
+}
